@@ -1,0 +1,12 @@
+{
+  "name": "cube-image-slider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss index.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

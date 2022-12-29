@@ -1,0 +1,45 @@
+@import "../variables/var";
+body,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  // overflow: hidden;
+}
+
+body {
+  background: $black;
+  width: 100vh;
+  height: 100vh;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 58%;
+  }
+}
+@media (max-width: 950px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 720px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    font-size: 35%;
+  }
+}
+@media (max-width: 320px) {
+  html {
+    font-size: 30%;
+  }
+}
