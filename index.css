@@ -70,19 +70,6 @@ html {
     transform: rotateY(270deg) translateX(-15rem);
     transform-origin: 0 50%; }
 
-.owner {
-  color: #ffff; }
-  .owner h1 {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 900;
-    font-size: 5rem;
-    text-align: center;
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translate(50%, 0); }
-
 .btn {
   margin-top: 8rem;
   display: flex;
